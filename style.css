@@ -66,4 +66,22 @@ h1 {
     margin-bottom: 30px;
     text-align: center;
 }
+.tk-style{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 50px;
+}
+.money-box{
+  border-radius: 5px;
+  background-color: #fbfcfb;
+  padding: 30px;
+}
+#money-color{
+border-radius: 5px;
+border: 1px solid tomato;
+margin: 30px;
+padding: 30px;
+color:tomato;
+background-color: #fbfcfb;
+}
 /* Donate Today Section Style End */
