@@ -1,34 +1,55 @@
-.body {
-  font-family: "Roboto Condensed", sans-serif;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
+.body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+/* Donate now section style start */
 .top-section {
+  height: 500px;
+  position: relative;
+}
+
+.top-section::after {
+  content: "";
   background-image: url(Images/Help.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
   background-position: center;
-  position: relative;
+  display: block;
+  position: absolute;
+  top: 0;
+  filter: blur(5px);
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
+
 h1 {
   font-size: 50px;
-  /* color:white; */
-  /* text-align: center; */
   margin: 0;
-  /* padding: 0; */
+  
 }
 .top-text {
   text-align: center;
   color: white;
-  /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 0; */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
 }
+.anchor-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, #59522b, #cb860f);
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+/* Donate now section style end */
