@@ -188,4 +188,19 @@ background-color: #fbfcfb;
   flex-wrap: wrap;
   width: 100%;
 }
+.get-text-style{
+  font-size: 25px;
+}
+.input-style{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+.input-design{
+  background-color: #f9ebea;
+  height: 150px;
+  margin-bottom: 100px;
+}
 /* Helping Others section Style End */
