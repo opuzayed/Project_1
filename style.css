@@ -203,4 +203,10 @@ background-color: #fbfcfb;
   height: 150px;
   margin-bottom: 100px;
 }
+.email-input{
+  padding: 11px;
+  border-radius: 5px 0 5px 5px;
+  background-color: #cacfd2;
+  border: 0;
+}
 /* Helping Others section Style End */
