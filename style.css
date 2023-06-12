@@ -153,3 +153,39 @@ background-color: #fbfcfb;
   text-align: justify;
 }
 /* Donate Plan Section Style End */
+
+/* Helping Others section Style Start */
+.half-width{
+  width:50%;
+  margin:0 -5px;
+}
+.image-container{
+  position:relative;
+  margin:0 5px;
+}
+.image-container img{
+  width:100%;
+  object-fit: cover;
+  height:300px;
+  border-radius: 5px;
+}
+.image-container .image-text{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color:#ffffff;
+  width:80%;
+  font-size: 20px;
+  text-align: center;
+}
+.middle-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* Helping Others section Style End */
