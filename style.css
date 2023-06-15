@@ -223,3 +223,22 @@ h1 {
   border-radius: 0 5px 5px 0;
 }
 /* Helping Others section Style End */
+/* Footer section style start*/
+.footer-style{
+  background-color: black;
+  height:170px;
+}
+#h2-style{
+  color:tomato;
+  text-align: center;
+  font-family: "Gentium Book Plus", serif;
+  font-size: 20px;
+  padding-top: 50px;
+}
+#p-style{
+  text-align: center;
+  color:white;
+  font-size: 14px;
+  padding-top: 25px;
+}
+/* Footer section style end*/
